@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <title>Naz hk</title>
+    <meta name="description" content="My work is in network security and cybersecurity.">
+    <meta name="keywords" content="Naz hk">
+    <meta name="author" content="Heddar Nazim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="120">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a; /* أسود */
+            color: #ffffff; /* نص أبيض */
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        img {
+            float: right;
+            border: 6px solid black;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            height: 120px;
+            width: 180px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        hr {
+            border: 1px solid #0056b3; /* أزرق داكن */
+            margin: 30px 0;
+        }
+
+        .btn {
+            display: block;
+            background-color: #0056b3; /* أزرق */
+            color: #ffffff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 20px auto;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #003d80; /* أزرق أغمق عند المرور */
+        }
+
+        #additional-info {
+            display: none;
+            background-color: #001f3f; /* أزرق داكن */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 20px auto;
+            text-align: center;
+        }
+    </style>
+</head>    
+<body>
+
+<h1>Naz hk</h1>
+
+<!-- الصورة في أقصى اليمين -->
+<img src="photo/hack" alt="My Photo">
+
+<h2>My own project</h2>
+
+<p>Last name : <b><i>Heddar</i></b></p>
+<p>Name: <b><i>Nazim</i></b></p>
+<p>Date of birth : <b><i>03/06/2005</i></b></p>
+<p>University major : <b><i>Computer science</i></b></p>
+
+<hr/>
+
+<button class="btn" onclick="toggleInfo()">عرض معلومات إضافية</button>
+
+<div id="additional-info">
+    <h2>معلومات إضافية</h2>
+    <p>Email: <b><i>nazim@example.com</i></b></p>
+    <p>Phone: <b><i>+213 123 456 789</i></b></p>
+    <p>Skills: <b><i>Network Security, Cybersecurity, Programming</i></b></p>
+</div>
+
+<script>
+    function toggleInfo() {
+        const info = document.getElementById('additional-info');
+        if(info.style.display === "none" || info.style.display === "") {
+            info.style.display = "block";
+        } else {
+            info.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
